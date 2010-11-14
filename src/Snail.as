@@ -10,6 +10,7 @@ package
 		public var mySnail:Spritemap = new Spritemap(SNAIL, 96, 54);
 		public static var snailrow:int = Math.floor(Math.random() * 4);
 		public static var left:int = Math.floor(Math.random() * 2);
+		public var eating:Boolean = false;
 		
 		public function Snail() 
 		{
@@ -31,15 +32,17 @@ package
 		override public function update():void
 		{
 			var plantList:Array = [];
-			if (left)
+			if (left && !eating)
 			{
 				mySnail.play("walkright");
 				mySnail.x = mySnail.x + 1;
 			}
+			else
+			{
 			world.getClass(Plant, plantList);
 			for each (var e:Plant in plantList)
 			{
-				if (collide(Game.Snail, mySnail.x, mySnail.y))
+				if (collide("plant", mySnail.x, mySnail.y))
 				{
 					mySnail.play("eatright");
 				}
