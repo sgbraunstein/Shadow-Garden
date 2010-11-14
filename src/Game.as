@@ -1,11 +1,13 @@
 package  
 {
 	
-	//THIS IS A CHANGE!
+	//Jordan deleted comments
+	
 	//required file
 	//what is the airspeed velocity of an unladen swallow
 	//blah blah blah.
 	//Tina likes crabs and crickets, but not frogs.
+	
 	import Math
 	import net.flashpunk.World;
 	import net.flashpunk.graphics.Image;
@@ -97,3 +99,5 @@ package
 		}
 	}
 }
+
+// Jordan end comment
