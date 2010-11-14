@@ -4,12 +4,10 @@ package
 	//Jordan deleted comments
 	
 	//required file
-<<<<<<< HEAD
-=======
 	//what is the airspeed velocity of an unladen swallow
 	//blah blah blah.
 	//Tina likes crabs and crickets, but not frogs.
->>>>>>> d0943a51bbad14ead34b28b5f5f7e7f8a1b34b53
+	
 	import Math
 	import net.flashpunk.World;
 	import net.flashpunk.graphics.Image;
