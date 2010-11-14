@@ -1,3 +1,5 @@
+// Useless comment at top.
+
 package  
 {
 	import net.flashpunk.Entity;
@@ -29,3 +31,5 @@ package
 }
 
 // Useless test comment
+
+// Another useless comment.
