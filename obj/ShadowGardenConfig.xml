@@ -17,13 +17,13 @@
       <value>'11/14/2010'</value>
     </define>
     <source-path append="true">
-      <path-element>F:\Documents and Settings\Administrator\Desktop\Shadow Garden\src</path-element>
-      <path-element>F:\Documents and Settings\Administrator\Desktop\Shadow Garden\flashpunk\ChevyRay-FlashPunk-64a662d</path-element>
-      <path-element>F:\Program Files\FlashDevelop\Library\AS3\classes</path-element>
+      <path-element>C:\Users\Jordan\Documents\Flash Stuff\Shadow-Garden\src</path-element>
+      <path-element>C:\Users\Jordan\Documents\Flash Stuff\Shadow-Garden\flashpunk\ChevyRay-FlashPunk-64a662d</path-element>
+      <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
   </compiler>
   <file-specs>
-    <path-element>F:\Documents and Settings\Administrator\Desktop\Shadow Garden\src\Main.as</path-element>
+    <path-element>C:\Users\Jordan\Documents\Flash Stuff\Shadow-Garden\src\Main.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>
