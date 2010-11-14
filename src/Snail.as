@@ -38,7 +38,7 @@ package
 				mySnail.x = mySnail.x + 1;
 			}
 			else
-			{
+			{}
 			world.getClass(Plant, plantList);
 			for each (var e:Plant in plantList)
 			{

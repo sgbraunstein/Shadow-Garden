@@ -2,7 +2,8 @@ package
 {
 	
 	//THIS IS A CHANGE!
-	//required files
+	//required file
+	//what is the airspeed velocity of an unladen swallow
 	import Math
 	import net.flashpunk.World;
 	import net.flashpunk.graphics.Image;
@@ -59,6 +60,7 @@ package
 			add(new Shadowgarden);
 			add(new Snail);
 			add(myScore);
+			add(new Frog);
 		}
 		override public function update():void 
 		{
